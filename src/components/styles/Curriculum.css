@@ -1,0 +1,21 @@
+.descarga-contenedor{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+.descarga{
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+    background-color: #017592;
+    border-radius: 1em;
+}
+
+img{
+    width: 1000px;
+    height: 900px;
+}

@@ -4,6 +4,7 @@ import Navbar from './components/menu/Navbar';
 import Inicio from './components/pages/Inicio';
 import Items from './components/pages/Items';
 import Pokemos from './components/pages/Pokemos';
+import Curriculum from './components/pages/Curriculum';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Inicio/>} />
           <Route path='/pokemon' element={<Pokemos/>} />
           <Route path='/items' element={<Items/>} />
+          <Route path='/curriculum' element={<Curriculum/>} />
         </Routes>
       </Router>
     </div>
